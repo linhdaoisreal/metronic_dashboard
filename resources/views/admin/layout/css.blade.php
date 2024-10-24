@@ -14,3 +14,10 @@
 <script>
     // Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }
 </script>
+
+<!-- start:chart -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>  
+<script src="https://code.highcharts.com/modules/exporting.js"></script>  
+<script src="https://code.highcharts.com/modules/export-data.js"></script>  
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
